@@ -4,7 +4,7 @@
 
 import Foundation
 
-final class FeedImageMapper {
+private enum FeedImageMapper {
 	private static var OK_200: Int { return 200 }
 
 	private struct Root: Decodable {
